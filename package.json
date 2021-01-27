@@ -1,0 +1,24 @@
+{
+  "name": "vuepress_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:tmp": "vuepress dev docs --temp .temp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "node-sass": "^5.0.0",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-auto-sidebar": "^1.5.0",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-sidebar-atuo": "^1.0.3",
+    "yarn": "^1.22.10"
+  }
+}

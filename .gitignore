@@ -1,0 +1,6 @@
+node_modules/*
+vuepress-theme-vdoing-master/*
+*.assets
+docs/.vuepress/dist/*
+./temp/*
+*.log
